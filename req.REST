@@ -1,0 +1,29 @@
+POST http://localhost:5500/api/list
+Content-Type: application/json
+
+{
+    "item": "second item on the list",
+    "description": "description",
+    "features": "Features Page",
+    "featuresDeeds": "This is the details of the features page it can also be edited"
+}
+
+
+###
+
+
+GET http://localhost:5500/api/lists
+Content-Type: application/json
+
+ 
+
+
+###
+
+PUT http://localhost:5500/api/list/648745ff4a90f22965d3e571
+Content-Type: application/json
+
+{
+ "item": "Updated sha",   
+ "description": "updated"
+}
